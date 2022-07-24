@@ -35,7 +35,7 @@ while enter:
         exit()
     elif name_card == 99:
         print("\033[;37;m")
-        UI("cat READMY.md")
+        UI("cat README.md")
         enter = True
     else:
         enter = True
