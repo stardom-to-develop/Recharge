@@ -7,6 +7,11 @@ from os import system as UI
 
 UI("clear")
 print("\n\n\n\n")
+before_starting = input("\033[;31;mThis tool was developed for protection only\nI am not responsible for anyone misusing it\nand it is open source\033[;37;m ")
+
+UI("clear")
+
+print("\n\n\n\n")
 num_banner = rd.randint(1,10)
 UI(f"cat banner/banner{num_banner}.txt")
 # The user enters the slide type
